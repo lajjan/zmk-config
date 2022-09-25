@@ -19,7 +19,7 @@
 			compatible = "zmk,behavior-hold-tap";
 			label = "HOMEROW_MODS";
 			#binding-cells = <2>;
-			tapping-term-ms = <200>;
+			tapping-term-ms = <75>;
 			quick_tap_ms = <0>;
 			flavor = "tap-preferred";
 			bindings = <&kp>, <&kp>;
@@ -29,7 +29,7 @@
 			compatible = "zmk,behavior-hold-tap";
 			label = "TAPDANCE";
 			#binding-cells = <2>;
-			tapping-term-ms = <150>;
+			tapping-term-ms = <75>;
 			quick_tap_ms = <0>;
 			flavor = "tap-preferred";
 			bindings = <&kp>, <&kp>;
@@ -69,8 +69,8 @@
 		gaming {
 			bindings = <
 				&kp N1		&kp N2    &trans	&kp N3	&kp N4				&trans		&trans    &trans	&trans	&trans
-				&trans		&trans    &trans	&trans	&kp N5				&trans		&trans    &trans	&trans	&trans
-				&trans		&trans    &trans	&trans	&trans				&trans		&trans    &trans	&trans	&trans
+				&kp SPACE		&trans    &trans	&trans	&kp N5				&trans		&trans    &trans	&trans	&trans
+				&trans	&trans    &trans	&trans	&trans				&trans		&trans    &trans	&trans	&trans
 														&trans	&trans	&trans	      &trans		&trans    &trans
 			>;
 		};
