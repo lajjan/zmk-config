@@ -4,7 +4,7 @@
 if SHIELD_LAJJBOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "lajjBoard"
+	default "lajjBoardV2"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y

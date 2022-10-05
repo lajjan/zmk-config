@@ -1,8 +1,0 @@
-# Copyright (c) 2022 The ZMK Contributors
-# SPDX-License-Identifier: MIT
-
-config SHIELD_LAJJBOARD_LEFT_V2
-	def_bool $(shields_list_contains,lajjboard_left_v2)
-
-config SHIELD_LAJJBOARD_RIGHT_V2
-	def_bool $(shields_list_contains,lajjboard_right_v2)
